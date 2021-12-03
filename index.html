@@ -3,8 +3,10 @@
 <head>
 <meta charset="utf-8">
 <title>CORE</title>
-<link href="css/dropdown.css" rel="stylesheet" type="text/css">
-<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="/css/dropdown.css" rel="stylesheet" type="text/css">
+<link href="/css/style.css" rel="stylesheet" type="text/css">
+<link href="/css/slideee.css" rel="stylesheet" type="text/css">
+
 <body>
 
 <div class="nav"><a href="index.html"><img src="images/core_logo.png" width="150" height="100" class="logo" align="right"></a>
@@ -56,6 +58,34 @@
       <li><a  href="contact.html"><font color="white">CONTACT US</a></li></font>
   </ul>
 </div>
+	 <!-- Slideshow container -->
+	 <div class="slideshow-container fade">
+
+		<!-- Full images with numbers and message Info -->
+		<div class="Containers">
+		  <img src="/images/banner1.png" style="width:100%">
+		</div>
+	  
+		<div class="Containers">
+		  <img src="/images/banner2.png" style="width:100%">
+		</div>
+	  
+		<div class="Containers">
+		  <img src="/images/banner3.png" style="width:100%">
+		</div>
+	  
+		<!-- Back and forward buttons -->
+		<a class="Back" onclick="plusSlides(-1)">&#10094;</a>
+		<a class="forward" onclick="plusSlides(1)">&#10095;</a>
+	  </div>
+	  <br>
+	  
+	  <!-- The circles/dots -->
+	  <div style="text-align:center">
+		<span class="dots" onclick="currentSlide(1)"></span>
+		<span class="dots" onclick="currentSlide(2)"></span>
+		<span class="dots" onclick="currentSlide(3)"></span>
+	  </div>
 <div class="banner">
 	<div class="content">
 	  <h1><font color="white">WEAR ETHICAL</h1></font>
@@ -68,7 +98,7 @@
 		</div>
   	</div>
 </div>
-<br>
+
 <div class="containerO">
 	<div class="gallery">
 		<img src="images/product 1.jpg">
@@ -218,6 +248,6 @@
 			</div>
 	</form>
 </div>
-
+<script src="/js/slide.js"></script>
 </body>
 </html>

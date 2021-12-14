@@ -98,7 +98,7 @@ text-transform: uppercase;
 /* Add padding to containers */
 .container {
   padding: 10px 490px;
-  background-image: url("../images/45132.webp");
+  background-image: url(  "../images/banner 8.jpg");
   background-size: cover;
   background-repeat: no-repeat;
  
@@ -141,7 +141,8 @@ hr {
 }
 
 a {
-  color: dodgerblue;
+  color: inherit;
+	text-decoration: none;
 }
 .signin {
   background-color: #f1f1f1;
@@ -566,7 +567,7 @@ form .inputBox input {
 }
 .testimonials .inner .column {
 	justify-content:center;
-	margin: 8px 50px;
+	margin: 31px;
 	border: 1px #FBFBFB;
 	float: left;
 	width: 300px;
@@ -633,7 +634,7 @@ text-transform: uppercase;
     width: 100%;
 }
 .about {
-	margin:0 0 25px 0;
+	margin:0 0 0px 0;
     width: 100%;
 	height: 70vh;
 	background-size: cover;
@@ -776,5 +777,139 @@ form .email .btn {
     width: 95%;
 	height: 85vh;
 	background-image:url("../images/christmas1.png");
+	background-size: cover;
+}
+.subsription1 {
+	background: white;
+	padding: 40px 100px;
+	text-align: center;
+	
+}
+
+.subsription1 form p {
+	margin: 40px auto;
+	font-size: 20px;
+	font-weight: 300;
+}
+.footer .innerfooter {
+	margin: 0;
+	padding: 0;
+	
+}
+.footer .innerfooter .social {
+	display: flex;
+}
+.innerfooter .social ul {
+	display: flex;
+	width: 300px;
+	height: 50px;
+	margin: auto;
+	padding: 10px;
+}
+.social ul li {
+	list-style: none;
+}
+.footer .innerfooter .quicklink {
+	display: flex;
+	width: 560px;
+	height: 100px;
+	margin: auto;
+	padding: 25px 0 10px 0;
+}
+.innerfooter .quicklink ul {
+	display: flex;
+}
+.quicklink ul .links {
+	list-style: none;
+}
+ul .links a {
+	text-decoration: none;
+	font-size: 18px;
+	padding: 10px 20px;
+	
+}
+.footer .outer {
+	padding: 10px;
+	text-align: center;
+	font-size: 18px;
+	background: #402f1d;
+	color: white;
+}
+.jewellery {
+	margin:0 30px 25px 30px;
+    width: 95%;
+	height: 95vh;
+	background-image:url("../images/index.jewellery.jpg" );
+	background-size: cover;
+		}
+.vintage {
+	margin:0 30px 25px 30px;
+    width: 95%;
+	height: 95vh;
+	background-image:url("../images/vintage.jpg" );
+	background-size: cover;
+		}
+.top {
+	margin:0 30px 25px 30px;
+    width: 95%;
+	height: 95vh;
+	background-image:url("file:///C:/Users/Shruti%20Pathak/Desktop/web%20design%201/images/BLOG.jpg");
+	background-size: cover;
+		}
+
+.sustainable {
+	margin:0 30px 25px 30px;
+    width: 95%;
+	height: 90vh;
+	background-image:url( "../images/indexsus.png");
+	background-size: cover;
+}
+.color {
+margin:0 30px 25px 30px;
+    width: 95%;
+	height: 95vh;
+	background-image:url( "../images/indexcolor2.png");
+	background-size: cover;
+}
+.aboutsus1 {
+	margin:20px 30px 25px 30px;
+    width: 95%;
+	height: 90vh;
+	background-image:url( "../images/aboutsus1.png");
+	background-size: cover;
+}
+.aboutsus2 {
+	margin:0 30px 40px 30px;
+    width: 95%;
+	height: 100vh;
+	background-image:url( "../images/aboutsus2.png");
+	background-size: cover;
+}
+.aboutsus3 {
+	margin:0 30px 40px 30px;
+    width: 95%;
+	height: 100vh;
+	background-image:url( "../images/aboutsus3.png");
+	background-size: cover;
+}
+.aboutsus4 {
+	margin:0 30px 40px 30px;
+    width: 95%;
+	height: 90vh;
+	background-image:url( "../images/aboutsus4.png");
+	background-size: cover;
+}
+.aboutsus5 {
+	margin:0 30px 25px 30px;
+    width: 95%;
+	height: 90vh;
+	background-image:url("../images/aboutsus5.png");
+	background-size: cover;
+}
+.aboutsus6 {
+	margin:0 30px 25px 30px;
+    width: 95%;
+	height: 95vh;
+	background-image:url("../images/aboutsus6.png");
 	background-size: cover;
 }

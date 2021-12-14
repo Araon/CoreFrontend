@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link href="css/productstyle.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<div class="hero">
+	<div class="rowh">
+		<div class="colh">
+		<div class="slider">
+			<div class="product">
+				<img src="images/d2.jpg" onclick="clickme(this)">
+				<img src="images/d2a.jpg" onclick="clickme(this)">
+				<img src="images/d2b.jpg" onclick="clickme(this)">
+				<img src="images/d2c.jpg" onclick="clickme(this)">
+			</div>
+			<div class="preview">
+			<img src="images/d2.jpg" id="imagebox">
+			</div>
+			</div>
+		</div>
+		<div class="colh">
+		<div class="content">
+		  <p class="brand">CORE APPARELS</p>
+		  <h4>JESS CHECKERED DRESS
+</h4>
+		  <p class="price">Rs. 6,100.00</p>
+		  <p>SIZE:<select name="size">
+				<option value="select size">select size</option>
+				<option value="XS">XS</option>
+				<option value="S">S</option>
+				<option value="M">M</option>
+				<option value="L">L</option>
+				<option value="XL">XL</option>
+				</select></p>
+		  <p>COLOUR:<select name="colour">
+				<option value="select colour">select colour</option>
+				<option value="RED">BLUE</option>
+				<option value="RED">GREEN</option>
+				<option value="RED">YELLOW</option>
+				<option value="RED">BLACK</option>
+				<option value="RED">PINK</option>
+				</select></p>
+			<p>QUANTITY: <input type="text" value="1"></p>
+			<button type="button"><img src="images/icons/icons8-shopping-cart-24.png">ADD TO CART</button><BR>
+		  
+			
+		  </div>
+		</div>
+		</div>
+	</div>
+		
+		<script>
+		function clickme(smallImg){
+			
+			var fullImg = document.getElementById("imagebox")
+			fullImg.src = smallImg.src;
+		}
+		</script>
+</body>
+</html>
